@@ -1,6 +1,6 @@
 <?php
 
-namespace kashifali\Sanctum\Http\Middleware;
+namespace KashifAliTZ\Sanctum\Http\Middleware;
 
 use Closure;
 use Illuminate\Auth\AuthenticationException;

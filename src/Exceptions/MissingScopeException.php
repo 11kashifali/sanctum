@@ -1,13 +1,13 @@
 <?php
 
-namespace kashifali\Sanctum\Exceptions;
+namespace KashifAliTZ\Sanctum\Exceptions;
 
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Support\Arr;
 
 /**
  * @deprecated
- * @see \kashifali\Sanctum\Exceptions\MissingAbilityException
+ * @see \KashifAliTZ\Sanctum\Exceptions\MissingAbilityException
  */
 class MissingScopeException extends AuthorizationException
 {

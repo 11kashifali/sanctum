@@ -1,6 +1,6 @@
 <?php
 
-namespace kashifali\Sanctum\Http\Controllers;
+namespace KashifAliTZ\Sanctum\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

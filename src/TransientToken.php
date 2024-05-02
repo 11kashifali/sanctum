@@ -1,8 +1,8 @@
 <?php
 
-namespace kashifali\Sanctum;
+namespace KashifAliTZ\Sanctum;
 
-use kashifali\Sanctum\Contracts\HasAbilities;
+use KashifAliTZ\Sanctum\Contracts\HasAbilities;
 
 class TransientToken implements HasAbilities
 {

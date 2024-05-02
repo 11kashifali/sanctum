@@ -1,6 +1,6 @@
 <?php
 
-namespace kashifali\Sanctum\Exceptions;
+namespace KashifAliTZ\Sanctum\Exceptions;
 
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Support\Arr;

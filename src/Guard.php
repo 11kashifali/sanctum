@@ -1,11 +1,11 @@
 <?php
 
-namespace kashifali\Sanctum;
+namespace KashifAliTZ\Sanctum;
 
 use Illuminate\Contracts\Auth\Factory as AuthFactory;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
-use kashifali\Sanctum\Events\TokenAuthenticated;
+use KashifAliTZ\Sanctum\Events\TokenAuthenticated;
 
 class Guard
 {

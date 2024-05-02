@@ -1,6 +1,6 @@
 <?php
 
-namespace kashifali\Sanctum\Http\Middleware;
+namespace KashifAliTZ\Sanctum\Http\Middleware;
 
 use Illuminate\Routing\Pipeline;
 use Illuminate\Support\Collection;

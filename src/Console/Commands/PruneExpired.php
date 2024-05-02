@@ -1,9 +1,9 @@
 <?php
 
-namespace kashifali\Sanctum\Console\Commands;
+namespace KashifAliTZ\Sanctum\Console\Commands;
 
 use Illuminate\Console\Command;
-use kashifali\Sanctum\Sanctum;
+use KashifAliTZ\Sanctum\Sanctum;
 use Symfony\Component\Console\Attribute\AsCommand;
 
 #[AsCommand(name: 'sanctum:prune-expired')]

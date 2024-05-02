@@ -1,6 +1,6 @@
 <?php
 
-namespace kashifali\Sanctum\Contracts;
+namespace KashifAliTZ\Sanctum\Contracts;
 
 interface HasAbilities
 {

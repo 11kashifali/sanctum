@@ -1,15 +1,15 @@
 <?php
 
-namespace kashifali\Sanctum;
+namespace KashifAliTZ\Sanctum;
 
 use Illuminate\Auth\RequestGuard;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use kashifali\Sanctum\Console\Commands\PruneExpired;
-use kashifali\Sanctum\Http\Controllers\CsrfCookieController;
-use kashifali\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful;
+use KashifAliTZ\Sanctum\Console\Commands\PruneExpired;
+use KashifAliTZ\Sanctum\Http\Controllers\CsrfCookieController;
+use KashifAliTZ\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful;
 
 class SanctumServiceProvider extends ServiceProvider
 {

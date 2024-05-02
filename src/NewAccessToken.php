@@ -1,6 +1,6 @@
 <?php
 
-namespace kashifali\Sanctum;
+namespace KashifAliTZ\Sanctum;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
@@ -10,7 +10,7 @@ class NewAccessToken implements Arrayable, Jsonable
     /**
      * The access token instance.
      *
-     * @var \kashifali\Sanctum\PersonalAccessToken
+     * @var \KashifAliTZ\Sanctum\PersonalAccessToken
      */
     public $accessToken;
 
@@ -24,7 +24,7 @@ class NewAccessToken implements Arrayable, Jsonable
     /**
      * Create a new access token result.
      *
-     * @param  \kashifali\Sanctum\PersonalAccessToken  $accessToken
+     * @param  \KashifAliTZ\Sanctum\PersonalAccessToken  $accessToken
      * @param  string  $plainTextToken
      * @return void
      */

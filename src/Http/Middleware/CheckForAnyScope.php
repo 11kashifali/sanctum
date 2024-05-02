@@ -1,12 +1,12 @@
 <?php
 
-namespace kashifali\Sanctum\Http\Middleware;
+namespace KashifAliTZ\Sanctum\Http\Middleware;
 
-use kashifali\Sanctum\Exceptions\MissingScopeException;
+use KashifAliTZ\Sanctum\Exceptions\MissingScopeException;
 
 /**
  * @deprecated
- * @see \kashifali\Sanctum\Http\Middleware\CheckForAnyAbility
+ * @see \KashifAliTZ\Sanctum\Http\Middleware\CheckForAnyAbility
  */
 class CheckForAnyScope
 {
@@ -18,13 +18,13 @@ class CheckForAnyScope
      * @param  mixed  ...$scopes
      * @return \Illuminate\Http\Response
      *
-     * @throws \Illuminate\Auth\AuthenticationException|\kashifali\Sanctum\Exceptions\MissingScopeException
+     * @throws \Illuminate\Auth\AuthenticationException|\KashifAliTZ\Sanctum\Exceptions\MissingScopeException
      */
     public function handle($request, $next, ...$scopes)
     {
         try {
             return (new CheckForAnyAbility())->handle($request, $next, ...$scopes);
-        } catch (\kashifali\Sanctum\Exceptions\MissingAbilityException $e) {
+        } catch (\KashifAliTZ\Sanctum\Exceptions\MissingAbilityException $e) {
             throw new MissingScopeException($e->abilities());
         }
     }

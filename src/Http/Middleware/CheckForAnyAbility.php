@@ -1,9 +1,9 @@
 <?php
 
-namespace kashifali\Sanctum\Http\Middleware;
+namespace KashifAliTZ\Sanctum\Http\Middleware;
 
 use Illuminate\Auth\AuthenticationException;
-use kashifali\Sanctum\Exceptions\MissingAbilityException;
+use KashifAliTZ\Sanctum\Exceptions\MissingAbilityException;
 
 class CheckForAnyAbility
 {
@@ -15,7 +15,7 @@ class CheckForAnyAbility
      * @param  mixed  ...$abilities
      * @return \Illuminate\Http\Response
      *
-     * @throws \Illuminate\Auth\AuthenticationException|\kashifali\Sanctum\Exceptions\MissingAbilityException
+     * @throws \Illuminate\Auth\AuthenticationException|\KashifAliTZ\Sanctum\Exceptions\MissingAbilityException
      */
     public function handle($request, $next, ...$abilities)
     {

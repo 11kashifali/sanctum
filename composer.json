@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kashifali\\Sanctum\\": "src/"
+            "KashifAliTZ\\Sanctum\\": "src/"
         }
     },
     "autoload-dev": {
