@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\Sanctum;
+namespace kashifali\Sanctum;
 
-use Laravel\Sanctum\Contracts\HasAbilities;
+use kashifali\Sanctum\Contracts\HasAbilities;
 
 class TransientToken implements HasAbilities
 {

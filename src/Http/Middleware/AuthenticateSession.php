@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Sanctum\Http\Middleware;
+namespace kashifali\Sanctum\Http\Middleware;
 
 use Closure;
 use Illuminate\Auth\AuthenticationException;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Sanctum\Contracts;
+namespace kashifali\Sanctum\Contracts;
 
 use DateTimeInterface;
 
@@ -27,22 +27,22 @@ interface HasApiTokens
      * @param  string  $name
      * @param  array  $abilities
      * @param  \DateTimeInterface|null  $expiresAt
-     * @return \Laravel\Sanctum\NewAccessToken
+     * @return \kashifali\Sanctum\NewAccessToken
      */
     public function createToken(string $name, array $abilities = ['*'], DateTimeInterface $expiresAt = null);
 
     /**
      * Get the access token currently associated with the user.
      *
-     * @return \Laravel\Sanctum\Contracts\HasAbilities
+     * @return \kashifali\Sanctum\Contracts\HasAbilities
      */
     public function currentAccessToken();
 
     /**
      * Set the current access token for the user.
      *
-     * @param  \Laravel\Sanctum\Contracts\HasAbilities  $accessToken
-     * @return \Laravel\Sanctum\Contracts\HasApiTokens
+     * @param  \kashifali\Sanctum\Contracts\HasAbilities  $accessToken
+     * @return \kashifali\Sanctum\Contracts\HasApiTokens
      */
     public function withAccessToken($accessToken);
 }

@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravel\Sanctum;
+namespace kashifali\Sanctum;
 
 use Illuminate\Contracts\Auth\Factory as AuthFactory;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
-use Laravel\Sanctum\Events\TokenAuthenticated;
+use kashifali\Sanctum\Events\TokenAuthenticated;
 
 class Guard
 {

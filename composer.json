@@ -1,5 +1,5 @@
 {
-    "name": "laravel/sanctum",
+    "name": "kashifali/sanctum",
     "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
     "keywords": ["laravel", "sanctum", "auth"],
     "license": "MIT",
@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Sanctum\\": "src/"
+            "kashifali\\Sanctum\\": "src/"
         }
     },
     "autoload-dev": {

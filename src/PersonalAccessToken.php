@@ -1,9 +1,9 @@
 <?php
 
-namespace Laravel\Sanctum;
+namespace kashifali\Sanctum;
 
 use Illuminate\Database\Eloquent\Model;
-use Laravel\Sanctum\Contracts\HasAbilities;
+use kashifali\Sanctum\Contracts\HasAbilities;
 
 class PersonalAccessToken extends Model implements HasAbilities
 {

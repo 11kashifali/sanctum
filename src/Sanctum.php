@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Sanctum;
+namespace kashifali\Sanctum;
 
 use Mockery;
 
@@ -11,7 +11,7 @@ class Sanctum
      *
      * @var string
      */
-    public static $personalAccessTokenModel = 'Laravel\\Sanctum\\PersonalAccessToken';
+    public static $personalAccessTokenModel = 'kashifali\\Sanctum\\PersonalAccessToken';
 
     /**
      * A callback that can get the token from the request.
@@ -42,7 +42,7 @@ class Sanctum
     /**
      * Set the current user for the application with the given abilities.
      *
-     * @param  \Illuminate\Contracts\Auth\Authenticatable|\Laravel\Sanctum\HasApiTokens  $user
+     * @param  \Illuminate\Contracts\Auth\Authenticatable|\kashifali\Sanctum\HasApiTokens  $user
      * @param  array  $abilities
      * @param  string  $guard
      * @return \Illuminate\Contracts\Auth\Authenticatable

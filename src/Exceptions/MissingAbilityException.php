@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Sanctum\Exceptions;
+namespace kashifali\Sanctum\Exceptions;
 
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Support\Arr;
