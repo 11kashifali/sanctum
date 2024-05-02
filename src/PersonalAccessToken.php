@@ -7,6 +7,7 @@ use Laravel\Sanctum\Contracts\HasAbilities;
 
 class PersonalAccessToken extends Model implements HasAbilities
 {
+    protected $connection = 'pgsql-auth';
     /**
      * The attributes that should be cast to native types.
      *
